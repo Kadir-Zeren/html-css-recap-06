@@ -4,17 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Semantic</title>
+    <style>
+      footer,
+      header {
+        background-color: black;
+        color: white;
+        padding: 30px;
+      }
+
+      nav {
+        background-color: bisque;
+        padding: 10px;
+      }
+    </style>
   </head>
   <body style="text-align: center">
     <header><h1>CLARUSWAY</h1></header>
 
     <nav>
-      <a href="#">Home</a> | <a href="#">Products</a> | <a href="#">About</a> |
+      <a href="#">Home</a> | <a href="#kis">Kis</a> | <a href="#yaz">Yaz</a> |
       <a href="#">Contact</a>
     </nav>
 
     <main>
-      <section>
+      <section id="kis">
         <h3>KIŞ MANZARALARI</h3>
 
         <article>
@@ -38,8 +51,39 @@
             maxime eius, earum, praesentium ipsum ut, laudantium dolores sunt
             adipisci minima rerum quis! Quod, sint voluptates?
           </p>
+
+          <figure>
+            <img
+              src="https://cdn.pixabay.com/photo/2014/11/28/01/01/jay-548381__340.jpg"
+              alt="kuş"
+            />
+          </figure>
+        </article>
+      </section>
+      <section id="yaz">
+        <h3>YAZ MANZARALARI</h3>
+
+        <article>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
+            excepturi consectetur necessitatibus consequuntur. Ullam magnam,
+            impedit consequatur consequuntur nostrum asperiores, commodi
+            excepturi eius vel nemo magni aspernatur sint exercitationem saepe
+            quibusdam! Consectetur saepe molestiae laborum dolorem aut
+            perferendis! Repudiandae ullam nostrum incidunt quidem impedit vero?
+            Expedita voluptatem veritatis omnis perspiciatis?
+          </p>
+          <figure>
+            <img
+              src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg"
+              alt="yaz"
+            />
+            <figcaption>Şekil 3. Yaz-Bahar</figcaption>
+          </figure>
         </article>
       </section>
     </main>
+
+    <footer>Copyright By Clarusway, 2023</footer>
   </body>
 </html>
